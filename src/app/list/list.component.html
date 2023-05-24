@@ -1,0 +1,10 @@
+<table>
+    <tr>
+        <th>Nome</th>
+        <th>Nota</th>
+    </tr>
+    <tr *ngFor="let aluno of alunos">
+        <td>{{aluno.nome}}</td>
+        <td *ngIf="">{{aluno.nota | number}}</td>
+    </tr>
+</table>
